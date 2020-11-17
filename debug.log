@@ -4,3 +4,4 @@
 [1113/121502.222:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
 [1116/162506.346:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
 [1117/154526.712:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\svenn\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\415e53d7-b07e-4196-bee2-6da776648a9d: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[1117/155540.745:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
