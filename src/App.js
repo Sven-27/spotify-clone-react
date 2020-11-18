@@ -28,7 +28,7 @@ if(_token){
   })
 
   spotify.setAccessToken(_token);
-
+console.log(_token)
   spotify.getMe().then(user => {
     dispatch({
       type: "SET_USER",
