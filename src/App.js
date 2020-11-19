@@ -41,6 +41,13 @@ console.log(_token)
       playlists: playlists,
     })
   })
+  
+  spotify.getPlaylist('37i9dQZEVXcGdsvGgsBo8a').then((response)=> {
+    dispatch({
+      type: 'SET_DISCOVER_WEEKLY',
+      discover_weekly: response,
+    })
+  });
 }
 }, []);
 

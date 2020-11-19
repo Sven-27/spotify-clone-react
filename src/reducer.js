@@ -4,7 +4,7 @@ export const initialState = {
     playing: false,
     item: null,
     //Remove token after finishing developing.
- // token: '',
+  token: '',
 }
 
 const reducer = (state, action) => {
@@ -28,6 +28,12 @@ switch(action.type){
                 ...state,
                 playlists: action.playlists,
             }
+
+        case "SET_DISCOVER_WEEKLY":
+        return {
+            ...state,
+        discover_weekly: action.discover_weekly,
+        }
         default: 
         return state;
 }
